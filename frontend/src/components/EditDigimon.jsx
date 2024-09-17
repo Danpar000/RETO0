@@ -10,6 +10,7 @@ const EditDigimon = () => {
     const [img, setImg] = useState('')
     const [level, setLevel] = useState('')
     const {id} = useParams()
+    const navigate = useNavigate()
 
     const update = async (e) => {
         e.preventDefault();
